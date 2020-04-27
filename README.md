@@ -9,6 +9,5 @@
 </ul>
 <h2>Pull Requests welcome for contribution</h2>
 <p>John Manouse</p>
-<ul>
-    <li><a href='https://mirageg4.github.io/Bootcamp-Homework/Develop/index.html'>Homework-1</a>
-</ul>
+<p>Live Link: <a href="https://mirageg4.github.io/Code-Refactor/">Code Refactor</a></p>
+
