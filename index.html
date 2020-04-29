@@ -9,47 +9,53 @@
     <meta name="keywords" content="Lead Generation, Brand Awareness, Cost Management">
     <!-- Added meta author for SEO -->
     <meta name="author" content="Horiseon Social Solution Services, Inc.">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style2.css">
    <!-- Added company name & description to Title -->
     <title>Horiseon Marketing & SEO</title>
 </head>
 
 <body>
-    <!--Added <header> </header> tags to clarify header-->
+    <!--Added semantic tags <header>_</header> to clarify header-->
+    <div id="container">
+    <!--Added semantic tags <header>_</header> to clarify header-->
     <header>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <ul>
-                <!--Put <li></li> tags on same line as the link to make code neater-->
-                <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
-                <li><a href="#online-reputation-management">Online Reputation Management</a></li>
-                <li><a href="#social-media-marketing">Social Media Marketing</a></li>
-            </ul>
-        </header>
-    </div>
+        <div class="header">
+            <h1>Hori<span class="seo">seo</span>n</h1>
+            <div>
+                <ul>
+                    <!--Put <li></li> tags on same line as the link to make code neater-->
+                    <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
 
-    <div class="hero"></div>
-                        <!-- Added a blank row after every </div> tag to make code neater-->
-    <div class="content">
+                    <li><a href="#online-reputation-management">Online Reputation Management</a></li>
+
+                    <li><a href="#social-media-marketing">Social Media Marketing</a></li>
+                </ul>
+            </div>
+    </header>
+
+    <!-- Changed <div class="hero" to <div class="main" for semantic html-->
+    <div class="main">
+    </div>
+        <!-- Added a blank row after every </div> tag to make code neater-->
+        <div class="content">
 
         <!-- Added div id to direct link to correct section of the page-->
         <div id="search-engine-optimization" class="search-engine-optimization">
 
-             <!-- Removed / at end of code line & added alt tag to next line-->
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left"
-            alt="SEO Notebook">
+         <!-- Removed / at end of code line & added alt tag to next line-->
+        <img src="./assets/images/search-engine-optimization.jpg" class="float-left"
+        alt="SEO Notebook">
 
-                <h2>Search Engine Optimization</h2>
+        <h2>Search Engine Optimization</h2>
 
-                <!-- Added Returns to all <p> tags to make text description easier to read -->
-            <p>
-                The dominance of mobile internet use means that users are searching 
-                for the right business as they travel, shop, or sit on their couch at home. 
-                Search Engine Optimization (SEO) allows you to increase your visibility 
-                and find the right customers for your business.
-            </p>
-        </div>
+        <!-- Added Returns to all <p> tags to make text description easier to read -->
+        <p>
+            The dominance of mobile internet use means that users are searching 
+            for the right business as they travel, shop, or sit on their couch at home. 
+            Search Engine Optimization (SEO) allows you to increase your visibility 
+            and find the right customers for your business.
+        </p>
+    </div>
 
         <div id="online-reputation-management" class="online-reputation-management">
 
@@ -81,11 +87,12 @@
         </div>
 
     </div>
-
-    <div class="benefits">
+    <!-- Changed <div>_</div> to <aside>_</aside>for semantic html-->
+    <aside class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
+            <!-- Removed / at end of code line & added alt tag-->
+            <img src="./assets/images/lead-generation.png" alt="Lead Generation">
             <p>
                 Inbound strategies for lead generation require less work 
                 for your business, bringing customers directly to your website.
@@ -94,7 +101,8 @@
 
         <div class="benefit-brand">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <!-- Removed / at end of code line & added alt tag-->
+            <img src="./assets/images/brand-awareness.png" alt="Brand Awareness">
             <p>
                 Users find your business through paid and organic searches, 
                 increasing the search ranking and visibility for your business.
@@ -103,22 +111,23 @@
 
         <div class="benefit-cost">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png"></img>
+            <!-- Removed closing img tag at end of code line & added alt tag-->
+            <img src="./assets/images/cost-management.png" alt="Cost Management">
             <p>
                 As the search ranking for your business increases, 
                 your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
+        </aside>
 
     </div>
-            <!-- Added <footer></footer> tags -->
+            <!-- Added semantic tags <footer>_</footer> to clarify footer -->
     <footer>
         <div class="footer">
             <h2>Made with ❤️️ by Horiseon</h2>
             <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
         </div>
     </footer>
-
+    </div>
 </body>
 
 </html>

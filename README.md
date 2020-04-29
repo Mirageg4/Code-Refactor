@@ -1,4 +1,4 @@
-<h1>align='center'>Search Engine Optimization</h1>
+<h1>Search Engine Optimization</h1>
 <h2>Horiseon</h2>
 <p>Horiseon, a SEO & Online Marketing company made a request
     to have their website rank higher during marketing agency search results. </p>
